@@ -38,7 +38,6 @@ exports.createProductwithmail = async (req, res) => {
     }
 }
 
-
 exports.updateImage = async (req, res) => {
     try {
         const product = await Product.findById(req.params.id);
